@@ -1,0 +1,15 @@
+.spanTitle{
+    color: black;
+    /* text-decoration: none; */
+    flex:1;
+    cursor: pointer;
+    font-size: 18px;
+    /* align-self: center; */
+
+
+}
+.cardHeader{
+    display: flex;
+    align-items: center;
+
+}
