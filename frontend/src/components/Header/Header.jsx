@@ -1,6 +1,5 @@
 import React from 'react'
 import {Container, Form, Nav, Navbar, NavDropdown } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
 
 export const Header = () => {
   return (
