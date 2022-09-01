@@ -4,6 +4,7 @@ const dotenv=require('dotenv');
 const app =express();
 const mongoose = require('mongoose');
 const userRoutes=require('./routes/userRoutes');
+const noteRoutes=require('./routes/noteRoutes');
 const { notFound, errorHandler } = require('./middleware/errorMiddleware.js');
 
 dotenv.config();
@@ -22,12 +23,9 @@ app.get('/', (req, res)=>{
     
 })
 
-app.get('/api/notes', (req, res)=>{
-    res.json(notes)
 
-})
-
-app.use('/api/user',userRoutes)
+app.use('/api/users',userRoutes)
+app.use('/api/notes',noteRoutes)
 app.use(notFound)
 app.use(errorHandler)
 
