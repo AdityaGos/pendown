@@ -19,6 +19,7 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.10.15",
     "nodemon": "^2.0.19",
-    "react-bootstrap": "^2.4.0"
+    "react-bootstrap": "^2.4.0",
+    "react-markdown": "^6.0.1"
   }
 }
